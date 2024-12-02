@@ -16,6 +16,7 @@ body{
 }
 
 .nav-links{
+    /*Quitar viñetas */
     list-style: none;
     margin: 0;
     padding: 0%;
@@ -24,4 +25,22 @@ body{
 
 .nav-links li{
     margin-left: 20px;
+}
+
+.hero{
+    background-image: url("https://elfinanciero.com.mx/resizer/v2/DJVIYB7QINELBFIKBRX2M3ZD2I.jpg?smart=true&auth=5cd236a98cbfad28fde4e864ddab02de778b0dbb1cd5c1fe91a8ca3dec7e7e5c&width=1440&height=810");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 100px 0;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
