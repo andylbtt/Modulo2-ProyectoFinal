@@ -12,7 +12,8 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: bisque;
+    background-color: rgb(140, 106, 76);
+    color: antiquewhite;
 }
 
 .nav-links{
@@ -21,10 +22,13 @@ body{
     margin: 0;
     padding: 0%;
     display: flex;
+    color: antiquewhite;
 }
 
 .nav-links li{
     margin-left: 20px;
+    background-color: rgb(140, 106, 76);
+    color: antiquewhite ;
 }
 
 .hero{
@@ -49,6 +53,7 @@ body{
 .featured-products{
     padding: 50px;
     text-align: center;
+    background-color: bisque;
 }
 
 .product-list{
@@ -67,6 +72,7 @@ body{
     height: 240px;
     object-fit: cover;
     margin-bottom: 10px;
+    border-radius: 10%;
 }
 
 /* Estilos del pie de página*/
