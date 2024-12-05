@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>Mi Cafetería</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -25,38 +26,44 @@
         <div class="hero-content">
             <h2>El mejor café de la ciudad.</h2>
             <h3>Disfruta de una experiencia única con nuestros granos seleccionados.</h3>
-            <button><h3>Ver Menú</h3></button>
+            <button class="boton-menu">Ver Menú</button>
         </div>
     </section>
 
     <section class="featured-products">
         <h2>Nuestros productos destacados:</h2>
         <div class="product-list">
+            <!--Cafe 1-->
             <div class="product">
                 <img src="https://www.elglobo.com.mx/cdn/shop/products/americano-2_800x.jpg?v=1618806696g" alt="Café 1">
                 <h3>Café Americano</h3>
                 <p>Un clásico para comenzar el día.</p>
             </div>
+            <!--Cafe 2-->
             <div class="product">
                 <img src="https://cafelafuente.com/wp-content/uploads/2021/07/blog-cafe-la-fuente-13.jpg" alt="Café 2">
                 <h3>Cappuccino</h3>
                 <p>Espresso con leche cremosa.</p>
             </div>
+            <!--Cafe 3-->
             <div class="product">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSShdudEZtDuzcIAXiQu3wVT27LGobPi1MRHw&s" alt="Café 3">
                 <h3>Latte</h3>
                 <p>Espresso con leche al vapor.</p>
             </div>
+            <!--Cafe 4-->
             <div class="product">
                 <img src="https://sweetdaypanama.com/wp-content/uploads/2022/03/Sweet-Day-Cafe-espresso.png" alt="Café 4">
                 <h3>Latte Espresso</h3>
                 <p>Shot de Espresso.</p>
             </div>
+            <!--Cafe 5-->
             <div class="product">
                 <img src="https://www.elmejornido.com/sites/g/files/jgfbjl316/files/srh_recipes/432364bea8f1cafd2170177e2cbc17c2.jpg" alt="Café 5">
                 <h3>Mocaccino</h3>
                 <p>Café espresso, leche y chocolate.</p>
             </div>
+            <!--Cafe 6-->
             <div class="product">
                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/11/3e/3c/ff/matcha-latte.jpg" alt="Café 6">
                 <h3>Matcha Latte</h3>
@@ -65,42 +72,47 @@
         </div>
     </section>
 
-    <section class="featured-products">
+    <section class="postresitos">
         <h2>Nuestros favoritos para acompañar:</h2>
-        <div class="product-list">
-            <div class="product">
+        <div class="grid-container">
+            <!--Postre 1-->
+            <div class="postres">
                 <img src="https://www.hogarmania.com/archivos/201905/postres-cafe-1280x720x80xX.jpg" alt="Café 1">
                 <h3>Tiramisú</h3>
                 <p>.</p>
             </div>
-            <div class="product">
+            <!--Postre 2-->
+            <div class="postres">
                 <img src="https://sarasellos.com/wp-content/uploads/2024/03/pastel-chocolate.jpeg" alt="Café 2">
                 <h3>Pastel de Chocolate</h3>
                 <p>.</p>
             </div>
-            <div class="product">
+            <!--Postre 3-->
+            <div class="postres">
                 <img src="https://hips.hearstapps.com/hmg-prod/images/churros-index-661d4692d05e4.jpg?crop=0.498xw:0.997xh;0.250xw,0.00321xh&resize=1200:*" alt="Café 3">
                 <h3>Churros</h3>
                 <p>.</p>
             </div>
-            <div class="product">
+            <!--Postre 4-->
+            <div class="postres">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUzFn0jsBS6S2Wy2jOm6nhpv11IQ17uP-wnMde_BOJXu7Iuyr6G2tzwq_9oTqMaK_Jq1o&usqp=CAU" alt="Café 4">
                 <h3>Pastel de Zanahoria</h3>
                 <p>.</p>
             </div>
-            <div class="product">
+            <!--Postre 5-->
+            <div class="postres">
                 <img src="https://vainillamolina.com/uploads/blog/Vainilla-Molina-Pastel-Chocolate-Sin-Gluten-1.webp" alt="Café 5">
                 <h3>Cheesecake</h3>
                 <p>.</p>
             </div>
-            <div class="product">
+            <!--Postre 6-->
+            <div class="postres">
                 <img src="https://cecotec.es/recetas/wp-content/uploads/2022/12/Cecofry_Strudel_de_manzana_RRSS-1-1000x500.jpg" alt="Café 6">
                 <h3>Strudel de Manzana</h3>
                 <p>.</p>
             </div>
         </div>
     </section>
-
 
     <section class="featured-products">
         <h2>Nuestra selección de café:</h2>
@@ -138,8 +150,55 @@
         </div>
     </section>
 
+    <section class="equipo">
+        <h2>Nuestro Equipo</h2>
+
+        <div class="equipo-container">
+
+            <div class="miembro">
+                <img src="https://cdn-3.expansion.mx/dims4/default/82740f4/2147483647/strip/true/crop/1000x600+0+0/resize/1200x720!/format/webp/quality/60/?url=https%3A%2F%2Fcherry-brightspot.s3.amazonaws.com%2Fef%2Fb2%2Ff5d371b747518d33354ba6d3057b%2Fchefmujer.jpg"
+                    alt="">
+                <h3>Diana</h3>
+                <p>Chef Principal</p>
+            </div>
+
+            <div class="miembro">
+                <img src="https://mejorconsalud.as.com/wp-content/uploads/2017/11/hombre-sonriendo-gafas.jpg" alt="">
+                <h3>Oscar</h3>
+                <p>Encargado de Redes Sociales</p>
+            </div>
+
+            <div class="miembro">
+                <img src="https://img.freepik.com/fotos-premium/mujer-africana-estadounidense-chef-pasteleria-preparando-postres-cocina-profesional_94255-8972.jpg"
+                    alt="">
+                <h3>Arelis</h3>
+                <p>Experta en postres</p>
+            </div>
+
+            <div class="miembro">
+                <img src="https://www.clarin.com/2018/09/05/rJiWhnTvQ_1200x0__1.jpg" alt="">
+                <h3>Ana</h3>
+                <p>Barista</p>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2023 Mi Cafetería</p>
+        <div class="footer-container">
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="newsletter">
+                <h3>Suscribete a nuestras promociones</h3>
+                <form action="">
+                    <input type="email" placeholder="Ingresa tu correo electronico" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+            <p>&copy; 2023 Mi Cafetería</p>
+        </div>
     </footer>
 </body>
 </html>
