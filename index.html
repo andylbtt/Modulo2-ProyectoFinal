@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <title>Mi Cafetería</title>
     <link rel="stylesheet" href="style.css">
+    <title>Mi Cafetería</title>
 </head>
 <body>
     <header>
@@ -14,10 +14,10 @@
                 <h1>Mi Cafetería</h1>
             </div>
             <ul class="nav-links">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Menú</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li> <a href="#">Inicio</a> </li>
+                <li> <a href="#" onclick="redirigir('menu.html')">Menú</a> </li>
+                <li> <a href="#">Nosotros</a> </li>
+                <li> <a href="#">Contacto</a> </li>
             </ul>
         </nav>
     </header>
@@ -192,7 +192,7 @@
             </div>
             <div class="newsletter">
                 <h3>Suscribete a nuestras promociones</h3>
-                <form action="">
+                <form>
                     <input type="email" placeholder="Ingresa tu correo electronico" required>
                     <button type="submit">Suscribirse</button>
                 </form>
@@ -200,5 +200,7 @@
             <p>&copy; 2023 Mi Cafetería</p>
         </div>
     </footer>
+    <!--Enlazando archivo de JavaScript-->
+    <script src="main.js"></script>
 </body>
 </html>
