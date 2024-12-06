@@ -1,11 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi Cafetería</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Mi Cafetería</h1>
+            </div>
+            <ul class="nav-links">
+                <li> <a href="#">Inicio</a> </li>
+                <li> <a href="#" onclick="redirigir('menu.html')">Menú</a> </li>
+                <li> <a href="#">Nosotros</a> </li>
+                <li> <a href="#">Contacto</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h2>El mejor café de la ciudad.</h2>
+            <h3>Disfruta de una experiencia única con nuestros granos seleccionados.</h3>
+        </div>
+    </section>
+
+    <section class="sandwiches">
+        <h2>Nuestros Sandwiches.</h2>
+        <div class="grid-sandwich">
+            
+        <div class="sandwich">
+            <img src="https://www.unileverfoodsolutions.es/dam/global-ufs/mcos/SPAIN/calcmenu/recipes/ES-recipes/general/s%C3%A1ndwich-club/main-header.jpg" alt="">
+            <h3>Club Sándwich Especial</h3>
+            <p>Sándwich de 3 pisos con pan tostado, relleno de tocino, cheddar, queso manchego, jamón, lechuga, jitomate y cebolla. Acompáñalo con unas deliciosas papas a la francesa y la bebida de tu preferencia.
+            </p>
+         </div>
+
+        <div class="sandwich">
+            <img src="https://pauladeenmagazine.com/wp-content/uploads/2014/12/serrano-manchego-grilled-cheese.jpg" alt="">
+            <h3>Sándwich de Manchego</h3>
+            <p>Proveniente de La Mancha, es un queso único y lleno de historia y tradición, a continuación te dejamos una receta deliciosa para compartir en familia.
+            </p>
+        </div>
+
+        <div class="sandwich">
+            <img src="https://storage.googleapis.com/avena-recipes-v2/agtzfmF2ZW5hLWJvdHIZCxIMSW50ZXJjb21Vc2VyGICAgMW2rJ8LDA/28-06-2023/UQ0O3Q0wiXZuDrehb0cN1687975157222.jpeg" alt="">
+            <h3>Sándwich de Panela</h3>
+            <p>Excelente opción vegetariana que combina la suavidad del queso panela con ingredientes frescos y sabrosos..
+            </p>
+        </div>
+
+        <div class="sandwich">
+            <img src="https://lh3.googleusercontent.com/proxy/aP4JM5pMrUlr-saYMXSUh2bgByW5TzNQaCL_PrPngBufeS-6FQz-rTSCgWrK-dQjlv4HHCJSChsblm3k96RgHNvpoVhipTymni_zTkx8BQISyx3pvB0m5hNx4h9sgfAukVLRdJIQGW4zqaDg8w" alt="">
+            <h3>Sándwich de Huevo</h3>
+            <p>Este sándwich no tiene una disposición fija de ingredientes, y dependerá en gran medida de los gustos tus gustos. ¡Tú decides!
+            </p>
+        </div>
+
+        <div class="sandwich">
+            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/OPUM3YFMI5AZ3C4NV7BDDJLOIE.jpg" alt="">
+            <h3>Sándwich de Manchego</h3>
+            <p>La pechuga de pollo puede prepararse de dos formas, empanizada y frita, o asada y aderezada con salsa barbacoa, o marinada en teriyaki.
+            </p>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="newsletter">
+                <h3>Suscribete a nuestras promociones</h3>
+                <form>
+                    <input type="email" placeholder="Ingresa tu correo electronico" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+            <p>&copy; 2023 Mi Cafetería</p>
+        </div>
+    </footer>
+    <!--Enlazando archivo de JavaScript-->
+    <script src="main.js"></script>
 </body>
 </html>
