@@ -5,8 +5,15 @@
 body{
     font-family: 'Lucida Sans', sans-serif;
 }
-
 .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(140, 106, 76);
+    color: antiquewhite;
+}
+.navbar a{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,6 +49,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: rgb(255, 255, 255);
 }
 .hero h2{
     font-size: 3rem;
@@ -49,16 +57,14 @@ body{
 }
 
 .contenedor-boton{
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 .boton-menu{
-    font-style: normal;
-    margin: 20px;
-    padding: 20px;
-    background-color: rgb(205, 177, 145);
-    color: rgb(125, 86, 14);
-    font-size: large;
+    margin: 25px;
+    padding: 25px;
+    background-color: white;
+    color: brown;
 }
 /*Seccion de productos*/
 .featured-products, .postresitos, .equipo{
@@ -78,7 +84,7 @@ body{
 }
 .product img{
     width: 100%;
-    height: 240px;
+    height: 220px;
     object-fit: cover;
     margin-bottom: 10px;
     border-radius: 10%;
@@ -162,3 +168,37 @@ footer{
     border-radius: 4px;
     cursor: pointer;
 }
+
+.sandwiches{
+    padding: 50px;
+    text-align: center;
+}
+
+.grid-sandwich{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 400px);
+    gap: 10px; 
+    /*"grid-template-areas: 
+    sandwich1 sandwich2 sandwich3 sandwich4"
+    "sandwich5 sandwich6 sandwichPollo sandwich8";*/
+}
+
+.sandwich{
+    border: 1px solid gray;
+    padding: 20px;
+    position: relative; 
+}
+.sandwich img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 15%;
+}
+
+/*.sandwich:nth-child(1) {grid-area: sandwich1;}
+.sandwich:nth-child(2) {grid-area: sandwich2;}
+.sandwich:nth-child(3) {grid-area: sandwich3;}
+.sandwich:nth-child(4) {grid-area: sandwichPollo;}
+.sandwich:nth-child(5) {grid-area: sandwich5;}
